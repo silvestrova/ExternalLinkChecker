@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {490D3241-FF87-4F15-B859-ED938E2F1B6D}
+database: master
+path: /sitecore/system/Modules/ExternalLinkChecker/Codes/504
+parent: {04BA722F-88BD-4837-9584-5045667E1779}
+name: 504
+master: {00000000-0000-0000-0000-000000000000}
+template: {3AC6D308-0555-4F51-8093-C35C001D5693}
+templatekey: HttpStatusCode
+
+----version----
+language: en
+version: 1
+revision: 2cf4b583-8e04-460a-80d7-02880b742420
+
+----field----
+field: {59AC0A7C-1961-4C44-9FA1-8465089632F5}
+name: code
+key: code
+content-length: 14
+
+GatewayTimeout
+----field----
+field: {F6022741-2379-415A-AD0D-13D93D1C53E6}
+name: description
+key: description
+content-length: 138
+
+GatewayTimeout indicates that an intermediate proxy server timed out while waiting for a response from another proxy or the origin server.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140603T144800
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2cf4b583-8e04-460a-80d7-02880b742420
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140821T133833:635442251132294129
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

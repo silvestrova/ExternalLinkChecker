@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {A652145C-9691-4A51-9F85-2D546C3B6905}
+database: master
+path: /sitecore/system/Modules/ExternalLinkChecker/Codes/410
+parent: {04BA722F-88BD-4837-9584-5045667E1779}
+name: 410
+master: {00000000-0000-0000-0000-000000000000}
+template: {3AC6D308-0555-4F51-8093-C35C001D5693}
+templatekey: HttpStatusCode
+
+----version----
+language: en
+version: 1
+revision: 13ee5170-cd05-40a5-b631-895cd85846b4
+
+----field----
+field: {59AC0A7C-1961-4C44-9FA1-8465089632F5}
+name: code
+key: code
+content-length: 4
+
+Gone
+----field----
+field: {F6022741-2379-415A-AD0D-13D93D1C53E6}
+name: description
+key: description
+content-length: 66
+
+Gone indicates that the requested resource is no longer available.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140603T144700
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+13ee5170-cd05-40a5-b631-895cd85846b4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140821T133740:635442250601044129
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

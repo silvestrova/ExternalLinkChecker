@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="ExternalLinksChecker.Commands.Close" Collapsed="true">
+    <Position X="16" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Close.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Commands.DownloadReport" Collapsed="true">
+    <Position X="16" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\DownloadReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Commands.StartExternalLinksChecker">
+    <Position X="1" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Commands\ExternalLinkscheckerCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Application.Dialogs.ExternalLinksCheckerWizard">
+    <Position X="1" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgSABgAEAAAKAABAQAQaCSATCgAAAAAAAAAAACoAAKA=</HashCode>
+      <FileName>Dialogs\ExternalLinksCheckerWizard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Application.Dialogs.Report" BaseTypeListCollapsed="true">
+    <Position X="16" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAgAAAAAAAAAACiAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dialogs\Report.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExternalLinksChecker.Managers.LinkTypesManager">
+    <Position X="8.25" Y="0.5" Width="2.25" />
+    <NestedTypes>
+      <Class Name="ExternalLinksChecker.Managers.LinkTypesManager.Factory" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Managers\LinkTypesManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Managers\LinkTypesManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Process.ExternalLinksCheckerManager" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAACAAAAAAAAAAAAAAEAgAAAAACAAAAAAAAAAg=</HashCode>
+      <FileName>Process\ExternalLinksCheckerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Process.Checker" Collapsed="true">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABAAgAAAAAAAEAAAYAAAAAAAAAAAgAAAAABAAAACg=</HashCode>
+      <FileName>Process\Checker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Process.Results" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCKAAAAAwAAAABAAAAQAAAAAAAAACAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Process\Checker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExternalLinksChecker.Settings" Collapsed="true">
+    <Position X="9.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAABIQAAAEAAAAABAECAAAQAAAAAAAAAAABAAAAACA=</HashCode>
+      <FileName>Metadata\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Utils.RequestUtil" Collapsed="true">
+    <Position X="11" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\RequestUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Utils.TasksPool" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAAAGAEAAAIAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\ThreadPool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExternalLinksChecker.Matadata.CheckingStatus" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABCAQAQAAAAEAAAQAEAAAKFEBEChFABABBQAAAAE=</HashCode>
+      <FileName>Metadata\CheckingStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Matadata.ResponseResults">
+    <Position X="11" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAIAAAAAAgIAEIAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Metadata\ResponseResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Metadata.ReportData" Collapsed="true">
+    <Position X="16" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAgAAAAIAAgAAAEICCAAAAEABAAAAAAIEA=</HashCode>
+      <FileName>Metadata\ReportData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalLinksChecker.Matadata.LinksOptions">
+    <Position X="5.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAACgAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Metadata\CheckLinksOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ExternalLinksChecker.TypesForChecking.ITypeForChecking">
+    <Position X="8.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypesForChecking\ITypeForChecking.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
